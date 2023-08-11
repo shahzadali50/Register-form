@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+img {
+  max-width: 100%;
+}
+
+.signup .container,
+.logIn .container {
+  max-width: 1300px;
+}
+
+.signup,
+.logIn {
+  background-color: rgb(40, 51, 82);
+}
+
+.signup form,
+ .logIn form {
+  background-color: rgb(20, 28, 51);
+  padding: 59px 38px;
+}
+
+.signup form label,
+ .logIn form label {
+  color: white;
+}
+
+.signup form input,
+ .logIn form input {
+  background-color: rgb(32, 40, 63) !important;
+  color: white !important;
+  padding: 25px 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.signup form input:focus ,
+.logIn form input:focus {
+  background-color: rgb(32, 40, 63);
+  box-shadow: none;
+}
+
+.text-red {
+  color: rgb(243, 72, 106);
+}
+
+.btn-red{
+  background-color: rgb(243, 72, 106) !important;
+  border: none;
+  padding: 14px 95px;
+}
+
+.btn-red:hover {
+  background-color: rgb(245, 13, 59) !important;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+  .form-image{
+    display: none;
+  }
+  .signup form, .logIn form {
+    padding: 22px 21px;
+
+  }
+
+  .btn-red{
+    padding: 10px 47px;
+  }
+}
